@@ -1,0 +1,68 @@
+html {
+    box-sizing: border-box;
+    font-size: 62.5%;
+}
+*, *:before, *:after {
+    box-sizing: inherit;
+}
+
+body {
+    font-size: 1.6rem;
+}
+
+/* GLOBALES */
+h1{
+    font-size: 5rem;
+}
+h2 {
+    font-size: 4rem;
+}
+h3 {
+    font-size: 3rem;
+}
+a {
+    text-decoration: none;
+}
+.container {
+    max-width: 120rem;
+    margin: 0 auto; /* margin-inline: auto; */
+}
+img {
+    max-width: 100%;
+    display: block;
+}
+
+/* HEADER Y NAVEGACION */
+.header {
+    /* background-image: url(../assets/); */
+    margin-top: 0;
+    background-color: red;
+}
+
+.header__text {
+    padding: 2rem;
+    text-align: center;
+}
+.header__title {
+    margin: 0;
+}
+.header__lema {
+    font-size: 2rem;
+    margin: 0;
+}
+.nav__logo{
+    display: none; 
+}
+.nav__link {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0;
+    padding: 1rem;
+    padding-top: .5rem;
+    background-color: green;
+}
+.nav__text {
+    color: white;
+    padding: 1rem;
+}
